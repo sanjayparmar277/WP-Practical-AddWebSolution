@@ -1,0 +1,52 @@
+2020-12-26T09:53:05+00:00 CRITICAL Uncaught GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:187
+Stack trace:
+#0 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(150): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(103): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 187
+
+2020-12-26T09:54:13+00:00 CRITICAL Uncaught GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:187
+Stack trace:
+#0 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(150): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(103): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 187
+
+2020-12-26T09:56:14+00:00 CRITICAL Uncaught GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:187
+Stack trace:
+#0 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(150): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(103): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\gmail-smtp\google-api-php-client\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 187
+
+2020-12-26T10:42:41+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\wp-addwebsolution.php on line 91
+
+2020-12-26T10:43:08+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\wp-addwebsolution.php on line 91
+
+2020-12-26T10:43:08+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\wp-addwebsolution.php on line 91
+
+2020-12-26T10:43:08+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\wp-addwebsolution.php on line 91
+
+2020-12-26T14:44:48+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on null in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\template\cart\cart.php:138
+Stack trace:
+#0 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\wamp64\www\addwebsolutionwp\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\wamp64\www\addwebsolutionwp\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocomm in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\template\cart\cart.php on line 138
+
+2020-12-26T14:59:00+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\template\cart\cart.php on line 135
+
+2020-12-26T17:23:35+00:00 CRITICAL Redefinition of parameter $template in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\wp-addwebsolution.php on line 281
+
+2020-12-26T18:05:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\template\cart\cart.php:42
+Stack trace:
+#0 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\wamp64\www\addwebsolutionwp\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\wamp64\www\addwebsolutionwp\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\wamp64\www\addwebsolutionwp\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[w in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\template\cart\cart.php on line 42
+
+2020-12-26T18:11:04+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\addwebsolutionwp\wp-content\plugins\wp-addwebsolution\template\cart\cart.php on line 47
+
